@@ -1,0 +1,263 @@
+body {
+    background-color: rgb(102, 98, 98);
+    background-attachment: fixed;
+    background-image: linear-gradient(180deg, rgb(0 0 0) 45%, rgb(106 0 0));
+}
+
+.title {
+    color: white;
+    border: 3px solid red;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    box-shadow: 0px 0px 15px 15px rgb(100, 0, 0);
+    margin-top: 40px;
+}
+
+.wrappergrid {
+    box-shadow: 0px 0px 15px 15px rgb(100, 0, 0);
+    width: 720px;
+    height: 670px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(220px, auto);
+    margin-top: 40px;
+    color: white;
+    gap: 12px;
+    background-color: rgb(102, 0, 0)
+}
+
+.tiles {
+    color: white;
+    border: 3px solid rgb(184, 0, 0);
+    background-color: black;
+    gap: 13px;
+    box-shadow: 0px 0px 15px 6px rgb(61, 0, 0);
+    border-radius: 20px;
+
+}
+
+.tiles:hover {
+    cursor: pointer;
+
+}
+
+.tiles.active {
+    background-color: rgb(255, 115, 115);
+    box-shadow: 0px 0px 15px 6px rgb(255, 0, 0);
+}
+
+.name {
+    color: white;
+    border: 3px solid red;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 15px 15px rgb(100, 0, 0);
+    background-color: black;
+    font-size: 28pt;
+    margin-top: -400px;
+    margin-left: 130px;
+    padding-top: 20px;
+}
+
+.points {
+    color: white;
+    border: 3px solid red;
+    width: 250px;
+    height: 220px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 15px 15px rgb(100, 0, 0);
+    background-color: black;
+    font-size: 20pt;
+    margin-top: -600px;
+    margin-left: 130px;
+}
+
+
+.h3spelregels {
+    font-size: 20pt;
+}
+
+.hr-element {
+    height: 3px;
+    background-color: red;
+    border: 0px;
+}
+
+
+.madeby {
+    color: white;
+    border: 3px solid red;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 15px 15px rgb(0, 0, 0);
+    background-color: black;
+    font-size: 20pt;
+    float: right;
+    margin-top: 690px;
+    margin-right: -350px;
+}
+
+.leaderboard {
+    border: 2px solid yellow;
+    float: right;
+    height: 400px;
+    width: 300px;
+    margin-top: -60px;
+    margin-right: 100px;
+    color: white;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 15px 15px rgb(100, 0, 0);
+    background-color: black;
+    font-size: 30pt;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.points-score {
+    color: white;
+    width: 50px;
+    margin: auto;
+}
+
+.timer {
+    margin: auto;
+    width: 230px;
+    height: 100px;
+    margin-top: 700px;
+    color: white;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 15px 15px rgb(0, 0, 0);
+    background-color: black;
+    font-weight: bold;
+}
+
+.timerh2 {
+    font-size: 40pt;
+    margin-top: -16px;
+}
+
+.name-leaderboard {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 25pt;
+    width: 160px;
+    margin-top: -22px;
+    height: 300px;
+}
+
+.score-leaderboard {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 25pt;
+    color: white;
+    width: 30px;
+    height: 300px;
+    float: right;
+    margin-top: -325px;
+}
+
+.status {
+    margin-top: 70px;
+}
+
+
+.spelregels {
+    float: left;
+    color: white;
+    border: 3px solid red;
+    width: 850px;
+    height: 630px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 15px 15px rgb(100, 0, 0);
+    background-color: black;
+    font-size: 20pt;
+    margin: auto;
+    margin-left: 570px;
+}
+
+.start-message {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px 15px rgb(110, 0, 0);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* margin-top: 250px; */
+    display: block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+.start-button {
+    width: 320px;
+    height: 180px;
+    margin: auto;
+    margin-top: 700px;
+    margin-left: -1400px;
+    font-size: 60pt;
+}
+
+button:hover {
+    background-color: rgb(97, 97, 97);
+    box-shadow: 0 4px rgb(255, 0, 0);
+    transform: translateY(-5px);
+    /*als ik met mijn muis erover heen ga gaat het hoger*/
+}
+
+button:active {
+    box-shadow: 0 0px white;
+    transform: translateY(5px);
+    /*als ik met mijn muis erop klik dan gaat het lager*/
+}
+
+button {
+    background-color: black;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 15px 15px rgb(110, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reset-button {
+    height: 150px;
+    width: 250px;
+    font-size: 25pt;
+    margin-top: 440px;
+    margin-left: 130px;
+}
